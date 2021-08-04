@@ -3,9 +3,9 @@ export default function NavBar(){
     return (
             <nav className='navbar'>
                 <ul >
-                   <a href='#'>HOME</a>
-                   <a href='#'>SERVICES</a>
-                   <a href='#'>CARRER</a>
+                   <a href='home'>HOME</a>
+                   <a href='services'>SERVICES</a>
+                   <a href='carrer'>CARRER</a>
                 </ul>
             </nav>
         

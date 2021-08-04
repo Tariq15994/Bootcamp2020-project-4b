@@ -20,12 +20,26 @@ body{
 
 }
 button{
+  border-style: block solid ;
   font-size: 38px;
-  border: 2px solid black;
+  color: black;
+  background-color: blue;
+  border: 5px solid black;
   font-style: italic;
   font-weight: bold;
   border-radius: 35px 35px ;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+button:hover{
+  color: black;
+  background-color: blue;
+  border-radius: 15px 15px;
+  border-style:solid;
+  border-color: black;
+  
+  
+
 }
 
 .section{
@@ -119,10 +133,14 @@ button{
   position: absolute;
 }
 .section2{
+  
+  height: 600px;
+  width: 100%;
   margin-top: 150px;
   display: inline-block;
 }
 .section2-para{
+  
   width: 40%;
   position:absolute;
   padding-top: 90px;
@@ -135,6 +153,7 @@ button{
 }
 .section2-img{
   margin-left: 20px;
+  
   /* padding-top:  20px; */
 }
 .section2-h1{
