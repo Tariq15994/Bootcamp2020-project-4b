@@ -61,7 +61,7 @@ button:hover{
 }
 .bg{
   
-  position: relative;
+  position: absolute;
   background-image: url('https://i.pinimg.com/originals/06/64/a0/0664a074210779b5a38250d4869ed716.jpg');
   height:700px;
   width: 100%;
@@ -70,7 +70,7 @@ button:hover{
 
 }
 .wellcome-screen{
-  color: white;
+  
   /* border: 5px solid black; */
   height: 600px;
   width: 550px;
